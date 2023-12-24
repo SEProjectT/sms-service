@@ -1,0 +1,10 @@
+server:
+  port: 8086
+
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+
+topic:
+  sms: sms

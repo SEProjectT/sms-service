@@ -37,7 +37,7 @@ class SmsService {
         json.put("message", messageDto.message)
         json.put(
             "recipients", JSONArray().put(
-                JSONObject().put("msisdn", 79822583576)
+                JSONObject().put("msisdn", messageDto.phone)
             )
         )
 
